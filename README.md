@@ -5,13 +5,7 @@ You can use this application to keep the records such as name, address, mobile n
 
 The source code of Customer Billing System Project in C has been written in C programming language without of the use of any graphics. The code is complete, totally error free and not that long – just. It is to be compiled in Code::Blocks  using GCC compiler.
 
-### User Defined Functions Used:
 
-Although graphics has not been used in this project, the application of user defined functions and structures have been effectively used here. The major user defined functions used in this C project are:
-1. `void input()`                                                                                                                  
-2. `void writefile()`                                                                                                                  
-3. `void search()`                                                                                                                     
-4. `void output()`
 
 The function `void input()` is used to add the new customer account i.e. with the help of this functions the parameters such as name, address, phone number, amount paid etc. are asked and entered. Another function `void writefile()` has been utilized to create a file on hard disk of computer for storing the information and data of a customer.
 
@@ -20,7 +14,13 @@ The function `void search()` has been used to look for previously stored account
 In Customer Billing System, structure has very beautifully used to group the data type in single unit. The date variables (`day`, `month` and `year`) have been grouped in the structures named date where as other variables such as name, number, street, paid amount etc. are grouped under another structure named account.
 
 Customer Billing System application is so simple to use. In order to use the application, click at the exe file and then, you will have three options to:
+### User Defined Functions Used:
 
+Although graphics has not been used in this project, the application of user defined functions and structures have been effectively used here. The major user defined functions used in this C project are:
+1. `void input()`                                                                                                                  
+2. `void writefile()`                                                                                                                  
+3. `void search()`                                                                                                                     
+4. `void output()`
 1. `To add account`
 2. `To search account`
 3. `To exit`
